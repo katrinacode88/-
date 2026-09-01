@@ -12,6 +12,7 @@ class TestMaxDepth(unittest.TestCase):
     """测试 max_depth 函数"""
 
 
+
     def test_flat_list(self):
         """平铺列表，深度为 1"""
         self.assertEqual(max_depth([1, 2, 3]), 1)
